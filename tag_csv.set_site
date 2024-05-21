@@ -1,0 +1,15 @@
+site = Ambient.set_site
+csv_file_path = "../#{site.name}_tags.csv"
+error_ids = []
+
+CSV.open(csv_file_path, 'w') do |csv|
+  csv << ['Tag Name', 'Tag Article Count']
+  site.tags.find_each do |tag|
+    begin
+      count = site.articles.by_tags(tag.id).count
+      csv << [tag.name, count]
+    rescue => e
+      error_ids << [tag.id, e.message]
+    end
+  end
+end

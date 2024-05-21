@@ -1,0 +1,19 @@
+ids.each_slice(batch_size) do |batch_ids|
+  batch_ids.each do |id|
+    begin
+      subscriber = Subscriber.find(id)
+      subscriptions = subscriber.subscriptions
+      subscription_ids = subscriptions.pluck(:id)
+      sub.concat(subscription_ids)
+      Ambient.init
+      Ambient.current_publisher = Publisher.where(name: 'INCISIVE').first
+      subscriptions.destroy_all
+      subscriber.destroy
+      puts count += 1
+    rescue => e
+      err << id
+    end
+ 
+    sleep(2)
+  end
+end

@@ -1,0 +1,52 @@
+PAGE NAME,COMPONENT NAME,CACHE ENABLED,SERVED FROM CACHE,DURATION,PAGE RUN TIME
+CATEGORY PAGE
+"",listing-classified-ads,true,false,0.014
+"",Listing-page,false,false,2.225
+"",Header-Date-Weather,false,false,0.015
+"",Home-Countries,true,false,0.111
+"",Header-User-Login,true,false,0.285
+"",fgbuysell-menu,true,false,0.092
+"",discover-menu,true,false,0.099
+"",more-menu,true,false,0.095
+"",Header-Main-Navigation,true,false,0.739
+"",footer-links,true,false,0.088
+"",footer-accreditations,true,false,0.098
+"","","","",3.8610000000000007,4.209
+DIFFERENCE,"","","","",0.347999999999999
+""
+REQUEST ID,1b59fca56b017fbad79f862d06ba62e2
+""
+CATEGORY PAGE
+"",listing-classified-ads,true,false,0.014
+"",Listing-page,false,false,2.363
+"",Header-Date-Weather,false,false,0.014
+"",Home-Countries,true,false,0.093
+"",Header-User-Login,true,false,0.269
+"",fgbuysell-menu,true,false,0.094
+"",discover-menu,true,false,0.084
+"",more-menu,true,false,0.089
+"",Header-Main-Navigation,true,false,0.692
+"",footer-links,true,false,0.108
+"",footer-accreditations,true,false,0.104
+"","","","",3.924,4.281
+DIFFERENCE,"","","","",0.35699999999999976
+""
+REQUEST ID,e018c9b4eea5909e42c3b7ea1f266820
+""
+CATEGORY PAGE
+"",listing-classified-ads,true,false,0.015
+"",Listing-page,false,false,2.525
+"",Header-Date-Weather,false,false,0.017
+"",Home-Countries,true,false,0.124
+"",Header-User-Login,true,false,0.321
+"",fgbuysell-menu,true,false,0.114
+"",discover-menu,true,false,0.102
+"",more-menu,true,false,0.198
+"",Header-Main-Navigation,true,false,1.009
+"",footer-links,true,false,0.147
+"",footer-accreditations,true,false,0.148
+"","","","",4.72,5.152
+DIFFERENCE,"","","","",0.4320000000000004
+""
+REQUEST ID,2e2ad8df5ac0060af7a4dae5e1b75af9
+""
